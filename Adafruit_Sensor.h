@@ -20,6 +20,7 @@
 #ifndef _ADAFRUIT_SENSOR_H
 #define _ADAFRUIT_SENSOR_H
 
+/*
 #ifndef ARDUINO
 #include <stdint.h>
 #elif ARDUINO >= 100
@@ -28,6 +29,9 @@
 #else
 #include "WProgram.h"
 #endif
+*/
+#include "Arduino.h"
+#include "Print.h"
 
 /* Constants */
 #define SENSORS_GRAVITY_EARTH (9.80665F) /**< Earth's gravity in m/s^2 */
